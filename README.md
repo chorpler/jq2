@@ -1,3 +1,26 @@
+jq2 fork
+==
+
+jq2 takes [jq](https://github.com/stedolan/jq) and adds a [FracturedJson]()-based formatting output option.
+
+Why? Because I often want to output JSON in a semi-compact format.
+- Compact: everything crams together into a single line. Bad for readability!
+- Pretty: everything item gets its own line. Bad for readability on a single screen!
+- Semi-Compact:
+  - Each line of an array is output onto a single line
+  - Still valid JSON, unlike [JSON Lines](https://jsonlines.org/)
+  - Great for arrays where each element is a single document or record
+
+## Documentation
+
+```
+boilerplate
+```
+
+-----
+**ORIGINAL README STARTS BELOW**
+===
+
 jq
 ==
 
